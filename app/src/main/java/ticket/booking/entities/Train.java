@@ -4,23 +4,28 @@ import java.util.List;
 import java.util.Map;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
-import com.fasterxml.jackson.databind.annotation.JsonPOJOBuilder;
+import lombok.Builder;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
-@JsonPOJOBuilder
+@Builder
 public class Train {
+
+
 	private String trainId;
 	private String trainNo;
+	@JsonProperty("seats_Booked")
 	private List<List<Integer>> seatsBooked;
 	private Map<String,String> stationTimes;
 	private List<String> stations;
+
 	
 	public Train(String trainId, String trainNo,List<List<Integer>> seatsBooked, 
 			Map<String, String> stationTimes, List<String> station) {
-		super();
+		
 		this.trainId = trainId;
 		this.trainNo = trainNo;
 		this.seatsBooked = seatsBooked;

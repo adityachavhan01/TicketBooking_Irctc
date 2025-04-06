@@ -97,6 +97,7 @@ public class UserBookingService {
 			return new ArrayList<>();
 		}
 	}
+// ****************fetching seats booked*************
 	public List<List<Integer>> fetchedSeats(Train train){
 		return train.getSeatsBooked();
 	}
