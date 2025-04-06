@@ -1,0 +1,62 @@
+[
+    {
+        "train_id": "train-1",
+        "train_no": 12345,
+        "seatsBooked": [
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0]
+        ],
+        "station_times": {
+            "bangalore": "13:50:00",
+            "jaipur": "13:50:00",
+            "delhi": "13:50:00"
+        },
+        "stations": [
+            "bangalore",
+            "jaipur",
+            "delhi"
+        ]
+    },
+    {
+        "train_id": "train-2",
+        "train_no": 12345,
+        "seatsBooked": [
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0]
+        ],
+        "station_times": {
+            "bangalore": "13:50:00",
+            "jaipur": "13:50:00",
+            "delhi": "13:50:00"
+        },
+        "stations": [
+            "bangalore",
+            "jaipur",
+            "delhi"
+        ]
+    },
+    {
+        "train_id": "train-3",
+        "train_no": 67890,
+        "seatsBooked": [
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0]
+        ],
+        "station_times": {
+            "bangalore": "13:50:00",
+            "jaipur": "13:50:00",
+            "delhi": "13:50:00"
+        },
+        "stations": [
+            "mumbai",
+            "pune",
+            "nashik"
+        ]
+    }
+]

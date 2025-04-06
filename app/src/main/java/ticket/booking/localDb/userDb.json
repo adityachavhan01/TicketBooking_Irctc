@@ -1,0 +1,23 @@
+[
+    {
+        "name": "aditya",
+        "password": "aditya",
+        "hash_password": "$2a$10$BAx6tg9CMhze9Lu1K7.dwO3u9epfDu4Fy6CsX3GX6lKpGJRmTJXPC",
+        "tickets_booked": [],
+        "user_id": "3fa558c1-8dac-4dc8-a889-3c9f97500be4"
+    },
+    {
+        "name": "user2",
+        "password": "user2",
+        "hash_password": "$2a$10$u9ITHjRW3G6GEE8qA5ZjzOXAKQm1afhnIiffYuA7tjfnUNRqPyPZa",
+        "tickets_booked": [],
+        "user_id": "1e264e8f-a42e-4cbb-bbbb-cc6b2c736099"
+    },
+    {
+        "name": "user3",
+        "password": "user3",
+        "hash_password": "$2a$10$iF4YSlAd5lZsUXeZZVDG9eZOAcZa7tBbNyGCDpjZOWLEvqvIKdEQq",
+        "tickets_booked": [],
+        "user_id": "2db1e938-0089-4981-94e3-75dd89c5dd91"
+    }
+]
